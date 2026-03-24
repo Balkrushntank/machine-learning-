@@ -35,9 +35,9 @@ def predict():
             'day': 15,
             'month': 'may',
             'campaign': 1,
-            'pdays': -1,
-            'previous': 0,
-            'poutcome': 'unknown'
+            'pdays': 10,
+            'previous': 2,
+            'poutcome': 'success'
         }
         
         # 3. Convert to DataFrame
